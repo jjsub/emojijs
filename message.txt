@@ -1,0 +1,3 @@
+Weather Forcast
+    Today: :partly_sunny:
+Tomorrow: :sunny: (good day for :running:)
