@@ -6,6 +6,7 @@ const emoji = require('node-emoji');
 const {log} = console;
 
 if (process.stdin.isTTY || process.env.STDIM === '0') {
+    log(process.argv)
     if (process.argv.length <= 2) {
         log(`Usage: ${__filename} emoji_text`);
         process.exit(-1);
